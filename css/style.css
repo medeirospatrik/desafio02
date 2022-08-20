@@ -1,0 +1,112 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+
+  background: linear-gradient(180deg, rgba(227,255,248,0)82%, rgba(227,255, 248, 0.38)100%);
+  
+  min-height: 100vh;
+}
+.page{
+  width: 1000px;
+  margin: 0 auto 0;
+  padding: 65px;
+}
+
+nav{
+  font-family: 'Mulish', sans-serif;
+  display: flex; /* Coloca todos as caixas dentro de header, no formato inline */
+  justify-content: space-between; /* muda a disposição dos itens, em qual lado da caixa vao ficar */
+  align-items: center;/* alinhar os conteudos das caixas*/
+  margin-bottom: 55px;
+}
+
+a{
+  color: #1F1534;
+  text-decoration: none;
+}
+ul li a {
+opacity:0.5 ;
+}
+
+ul{
+  list-style: none; /*estylizar listas*/
+  display: flex;
+  gap: 48px; /* espaços quando se trata de display*/
+  margin: 0;
+  padding: 0;
+}
+
+/*hover adiciona um peso ou cor na tag selecionada, quando colocamos o mouse em cima*/ 
+ul li a:hover{
+  font-weight: bold;
+  opacity: 1;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  font-family: 'Mulish', sans-serif;
+  color: black;
+  font-size: 49px;
+  font-weight: normal;
+  width:489px ; /*controla a largura do texto*/
+}
+
+span{
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+section p{
+  font-size: 14px;
+  line-height: 28px; /*espaçamento entre as linhas de um texto */
+  color: #7D7987;
+
+  margin: 40px 0 40px;
+
+}
+
+button{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+
+  background-color: #69B99D;
+  border: none;
+  padding: 14px 32px 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  
+}
+button:hover{
+  font-weight: bolder;
+  background-color:#69B888;
+}
+footer{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin: 80px auto 30px;
+  
+}
+#balls{
+  position: fixed;
+  bottom: 0;
+  right:0;
+}
+
+
+
